@@ -1,5 +1,6 @@
 function New-TimeStamp {
     [CmdletBinding()]
+    [Alias('timestamp')]
     param (
         [Parameter()]
         # Datetime format string; e.g. 'yyyy-MM-dd HH:mm:ss.fff' will show date and time like a string '2020-05-22 15:41:01.123'; default is RFC 3389 / ISO 8601 string
